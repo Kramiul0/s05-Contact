@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Session 5 activity</title>
+</head>
+<body>
+<header>
+		<h1>Zuitt IT Solutions</h1>
+	<p>
+		<h2>Products Offered</h2>
+	</p>
+	<br>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Package</th>
+				<th>Price</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tfoot>
+				<tr>
+					<td>Basic</td>
+					<td><strong>&#8369;</strong>500.00</td>
+					<td>Package includes a fully functional website with desired specifications.</td>
+				</tr>
+				<tr>
+					<td>Premium</td>
+					<td><strong>&#8369;</strong>1000.00</td>
+					<td>Enjoy all the benefits of the basic package and also includes site support and maintainance</td>
+				</tr>
+				<tr>
+					
+					<th colspan="4" align="center">Additional features after initial project is inclusive of charges.</th>
+				</tr>
+			</tfoot>
+		</tbody>
+	</table>
+	<br>
+	<section>
+		<p>
+		<h1>Contact Form</h1>
+		</p>
+		<form action="./contact.html">
+			
+				
+			<label for="first_name" >First Name:</label><br>
+			<input type="text" name="first_name"required autocomplete><br>
+
+		
+			<label for="last_name">Last Name:</label><br>
+			<input type="text" name="last_name"required autocomplet><br>
+
+			<label for="email">Email:</label><br>
+			<input type="email" name="email" required autocomplete><br>
+
+			<label for="contact">Contact Number:</label><br>
+			<input type="Number" name="contact"required autocomplete><br>
+
+			<label for="service">Service Type:</label><br>
+			<select name="service" id="service">
+				<option value="front">Front End Programming</option>
+				<option value="back">Back End Programming</option>
+			</select><br>
+
+			<label>Preffered Contact:</label><br>
+			<input type="checkbox" name="contact1" id="contact1" value="email">
+			<label for="contact1">Email</label>
+			<br>
+
+			<input type="checkbox" name="contact2" id="contact2" value="phone">
+			<label for="contact2">Phone</label>
+			<br>
+
+			<label>Package:</label><br>
+
+			<input type="radio" name="new_user" value="yes" id="pack1">
+			<label for="pack1">Basic</label>
+			<br>
+
+			<input type="radio" name="new_user" value="yes" id="pack2">
+			<label for="pack2">Premium</label>
+			<br>
+
+			<label for="notes">Messages:</label><br>
+			<textarea name="" id="notes" cols="20" rows="20" ></textarea>
+			<br>
+
+			<br>
+			<button type="submit">Send Inquiry</button><br>
+			<button type="reset">Reset</button>
+
+		</form>
+	
+	</section>
+
+
+</header>
+
+
+</body>
+</html>
